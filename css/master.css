@@ -6,22 +6,43 @@
   box-sizing: border-box;
 }
 
+.riga{
+  display: block;
+}
+
 .item{
  display: inline-block;
  margin-left: 5px;
  margin-top: 10px;
+ position: relative;
 }
 
 .sconto{
   background-color: green;
   width: 35px;
   height: 20px;
-  position: relative;
-  left: 265px;
-  bottom: 396px;
-  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
 }
 
 .sconto.rosso{
   background-color: red;
+}
+
+.cuore{
+  color: red;
+  font-size: 35px;
+  /* position: relative;
+  bottom: 40px; */
+  position: absolute;
+  bottom: 0px;
+  left: 145px;
+  /* text-align: center; */
+  display: none;
+}
+
+div:hover .cuore{
+  display: block;
 }
