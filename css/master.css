@@ -42,7 +42,7 @@
   /* text-align: center; */
   display: none;
 }
-
+/* le cose commentate sono una variante che mi piacevano ma non erano come nell'immagine */
 div:hover .cuore{
   display: block;
 }
